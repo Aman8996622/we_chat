@@ -62,14 +62,14 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCmT4y8rXO7u9xYAq6JEd1b3SlWHy3GmxY',
-    appId: '1:781817843865:ios:4be7ed07192adf1ac56808',
-    messagingSenderId: '781817843865',
-    projectId: 'safety-apps-33f5b',
-    storageBucket: 'safety-apps-33f5b.appspot.com',
+    apiKey: 'AIzaSyBi-1O03U2dtQ0JlaTnCV9NaapkMmhHudE',
+    appId: '1:977002907115:ios:d366fd7092abbcefce05ae',
+    messagingSenderId: '977002907115',
+    projectId: 'wechat-c1983',
+    storageBucket: 'wechat-c1983.appspot.com',
     iosClientId:
-        '781817843865-tt2ceba85dinn73qmnoahruq3bb16gv9.apps.googleusercontent.com',
-    iosBundleId: 'com.riskassessorlite.app',
+        '977002907115-oe3j7bjo89t47866abq1mfald43kjr6u.apps.googleusercontent.com',
+    iosBundleId: 'com.oChat.app',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(

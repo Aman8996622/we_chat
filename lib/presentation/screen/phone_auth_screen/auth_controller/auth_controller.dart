@@ -56,12 +56,14 @@ class AuthController with ChangeNotifier {
   Future<void> contiuneButtonClicked({
     required BuildContext context,
   }) async {
-    FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
+    FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance; 
+  
+     
   }
 
   void signUpButtonClicked({
     required BuildContext context,
   }) {
-    GoRouter.of(context).pushNamed(AppNameRoutes.register);
+    GoRouter.of(context).pushNamed(AppNameRoutes.addProfile);
   }
 }

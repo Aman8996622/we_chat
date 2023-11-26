@@ -2,7 +2,7 @@ name: we_chat
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -31,18 +31,21 @@ dependencies:
   auto_size_text: ^3.0.0
   cloud_firestore: ^4.9.3
   cupertino_icons: ^1.0.2
-  firebase_app_check: ^0.1.5+2
   firebase_auth: ^4.7.2
   firebase_core: ^2.15.0
+  firebase_storage: ^11.5.2
   fl_country_code_picker: ^0.1.5
   flutter:
     sdk: flutter
+  flutter_contacts: ^1.1.7+1
   flutter_easyloading: ^3.0.5
+  flutter_facebook_auth: ^6.0.3
   flutter_localization: ^0.1.13
   get_it: ^7.6.0
   go_router: ^10.0.0
   image_picker: ^1.0.4
   otp_autofill: ^3.0.0
+  path_provider: ^2.1.1
   provider: ^6.0.5
   shared_preferences: ^2.2.0
   sms_autofill: ^2.3.0
